@@ -87,6 +87,7 @@ header{
     display: none;
 }
 .btn{
+    width: 224px;
     font-size: 18px;
     font-weight: 600;
     color: white;
@@ -235,4 +236,38 @@ align-items:center ;
     align-items: center;
     text-align: center;
 
+}
+/* run styles here */
+.run-extra{
+    max-width: 1060px;
+    margin: 0 auto;
+  
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.run-img-responsive{
+    display: none;
+}
+.run-img {
+    height: 312px;
+    width: 366px;
+    border-radius: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.run-img img{
+    width: 100%;
+}
+.run-extra-description{
+    width: 36%;
+  
+}
+.habit-padding{
+   
+    padding-bottom: 34px;
 }
