@@ -61,5 +61,11 @@ color: rgba(255, 255, 255, 0.65);
     font-weight: 900;
     
 }
+.btn-1{
+    display: none;
+}
+.btn-responsive{
+    display: block;
+}
 
 }
