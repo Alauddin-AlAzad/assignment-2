@@ -1,0 +1,11 @@
+@media screen and (max-width:576px) {
+    .nav-item{
+        display: none;
+    }
+    .hamberg-menu{
+        display: block;
+    }
+    .nav-bar{
+        margin: 52px 20px;
+    }
+}

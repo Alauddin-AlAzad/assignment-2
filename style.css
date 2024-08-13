@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+/* navbar styles here */
+.nav-bar{
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 52px;
+  margin-bottom: 32px;
+
+}
+.nav-item{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 39px; 
+    font-size: 18px;
+    padding: 4px;
+align-items: center;
+     
+}
+.home-btn{
+    background: rgb(230, 83, 60);
+    border-radius: 46px;
+    width: 92px;
+    height: 38px;
+    text-align: center;
+    padding-top: 8px;
+}
+.hamberg-menu{
+    color: white;
+    display: none;
+}
+.head{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+
+}
+/* Banner style here */
+.banner{
+    max-width: 1120px;
+    border: 2px solid salmon;
+    margin: 0 auto;
+}
+.b-title{
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+    
+}
+.span{
+    font-family: miama;
+    font-weight: 400;
+}
+.b-sub-title{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 0.5px;
+}
+.banner-img{
+background-image: url(assest/Images 2.png);
+}
