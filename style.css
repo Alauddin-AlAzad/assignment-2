@@ -73,6 +73,40 @@ align-items: center;
     font-weight: 400px;
     letter-spacing: 0.5px;
 }
-.banner-img{
-background-image: url(assest/Images 2.png);
+.btn-primary{
+    display: flex;
+    gap: 14px;
+
+}
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+   
+}
+.btn-1{
+    background: rgb(230, 83, 60);
+    border-style: none;
+}
+.btn-2{
+    background-color: black;
+    border: 1px solid white;
+}
+.banner-container{
+    display: flex;
+}
+.des-1{
+    color: white;
+   
+}
+.des-2{
+    color: white;
+   
+}
+.img-1 img{
+width: 40px;
+height: 40px;
+
 }
