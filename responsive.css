@@ -8,4 +8,51 @@
     .nav-bar{
         margin: 52px 20px;
     }
+    /* banner-style */
+    .banner-container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-sub-conttainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .des-1{
+      
+        width: 145.91px;
+        height: 74.09px;
+        position: absolute;
+        left: 300px;
+        top: 76px;
+    }
+    .banner-title-1{
+        font-size: 30px;
+        font-weight: 900;
+        color: white;  
+   }
+   .banner-sub-title-1{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.65);
+   }
+   .des-2{
+  
+   position: absolute;
+   width: 155.74px;
+   height: 72.58px;
+   left: 100px;
+   top: 320.38px;
+   }
+   .banner-title-2{
+    font-size: 18px;
+    font-weight: 900;
+    color: white;  
+}
+.banner-sub-title-2{
+font-size: 12px;
+color: rgba(255, 255, 255, 0.65);
+}
 }
