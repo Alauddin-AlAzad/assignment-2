@@ -23,28 +23,28 @@
     }
     .des-1{
       
-        width: 145.91px;
-        height: 74.09px;
+        width: 8rem;
+        height: 4rem;
         position: absolute;
         top: 10%;
         left: 55%;
     }
     .banner-title-1{
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 900;
         color: white;  
    }
    .banner-sub-title-1{
-    font-size: 8px;
+    font-size: 10px;
     color: rgba(255, 255, 255, 0.65);
    }
    .des-2{
   
    position: absolute;
-   width: 155.74px;
-   height: 72.58px;
+   width: 8rem;
+   height:4rem ;
    top: 45%;
-   left: 13%;
+   left: 5%;
    }
    .banner-title-2{
     font-size: 15px;
@@ -55,6 +55,11 @@
 font-size: 10px;
 color: rgba(255, 255, 255, 0.65);
 }
-
+.b-title{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
 
 }
