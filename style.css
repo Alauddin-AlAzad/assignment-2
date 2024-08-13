@@ -59,6 +59,7 @@ header{
 .banner{
     max-width: 1300px;
     margin: 0 auto;
+    margin-bottom: 100px;
    
 }
 .b-title{
@@ -180,4 +181,58 @@ height: 40px;
 align-items:center ;
 
 }
+/* Habit styles here */
+.habits{
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.habit-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 14px;
 
+}
+.habit-subtitle{
+  font-size: 14px;
+  color: white;
+  opacity: 0.5;
+
+}
+.havit-description{
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 54px;
+}
+.h-title-2{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 6px;
+}
+.h-sub-title-2{
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+}
+.h-img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+.habit-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+}
+.havit-sub-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
