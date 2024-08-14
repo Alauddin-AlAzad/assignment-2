@@ -155,4 +155,28 @@ meet-content{
 .none-img{
     display: none;
 }
+.challenge-content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+.challenge button{
+    width: 90%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.challenge-form{
+    width: 90%;
+}
+.challenge-1{
+    text-align: start;
+}
+.responsive-1{
+    margin-left: 0px;
+}
+.paddin-challange{
+    margin-left: -60px;
+}
+
 }

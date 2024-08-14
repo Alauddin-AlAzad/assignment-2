@@ -426,3 +426,54 @@ color: darkgray;
    padding: 20px;
    gap: 20px;
 }
+/* challenge style here */
+.challenge{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    background: rgb(34, 34, 34);
+    margin-bottom: 80px;
+
+}
+.challenge-content{
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+  .challenge-form{
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    width: 83%;
+  }  
+  .challenge button{
+    height: 60px;
+    width: 14%;
+    border-radius: 8px;
+    background: rgb(230, 83, 60);
+    color: white;
+    margin-left: 2%;
+  }
+  .paddin-challange{
+    padding-top: 80px;
+  }
+  .padding-1{
+    padding-bottom: 20px;
+  }
+  .challenge-1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+ 
+  
+    
+  
