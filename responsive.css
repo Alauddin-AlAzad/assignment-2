@@ -176,7 +176,12 @@ meet-content{
     margin-left: 0px;
 }
 .paddin-challange{
-    margin-left: -30px;
+    margin-left: -20px;
+}
+.last-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
 }
 
 }
