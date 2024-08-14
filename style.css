@@ -363,3 +363,63 @@ td{
     background: rgb(230, 83, 60);
     border-style: none;
 }
+/* meet -site style */
+.meet-team-description{
+    max-width: 1060px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 52px;
+    text-align: center;
+}
+.meet-our-team-container{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.meet-title{
+font-size: 24px;
+font-weight: 800;
+color: white;
+}
+.meet-sub-title{
+font-size: 16px;
+font-weight: 600px;
+color: darkgray;
+}
+.meet-img{
+    width: 326px;
+    height: 272px;
+   
+    border-radius: 16px;
+
+   
+}
+.meet-img img{
+    width: 100%;
+   
+}
+.meet-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+ 
+    
+}
+.meet-1{
+    position: absolute;
+    top: 80%;
+    left: 20px; 
+     
+   
+
+}
+.meet-our-team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+   justify-items: center;
+   border-radius: 18px;
+   padding: 20px;
+   gap: 20px;
+}
