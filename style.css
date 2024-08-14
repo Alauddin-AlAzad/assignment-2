@@ -87,7 +87,7 @@ header{
     display: none;
 }
 .btn{
-    width: 224px;
+  
     font-size: 18px;
     font-weight: 600;
     color: white;
@@ -270,4 +270,9 @@ align-items:center ;
 .habit-padding{
    
     padding-bottom: 34px;
+}
+.btn-3{
+    background: rgb(230, 83, 60);
+    border-style: none;
+    width: 224px;
 }
