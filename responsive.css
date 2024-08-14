@@ -145,6 +145,10 @@ color: rgba(255, 255, 255, 0.65);
    width: 90%;
 }
 meet-content{
-    width: 90%;
+   align-items: center;
+}
+.meet-img{
+    width: 100%;
+    height: 330px;
 }
 }

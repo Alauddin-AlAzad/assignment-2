@@ -375,6 +375,7 @@ td{
 }
 .meet-our-team-container{
     max-width: 1060px;
+    
     margin: 0 auto;
 }
 .meet-title{
@@ -388,15 +389,17 @@ font-weight: 600px;
 color: darkgray;
 }
 .meet-img{
-    width: 306px;
-    height: 252px;
-   
+    width: 326px;
+    height: 272px;
     border-radius: 16px;
 
    
 }
-.meet-img img{
+.meet-img>img{
     width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: cover
    
 }
 .meet-content{
