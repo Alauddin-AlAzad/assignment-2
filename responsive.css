@@ -1,101 +1,119 @@
 @media screen and (max-width:576px) {
-    .nav-item{
+    .nav-item {
         display: none;
     }
-    .hamberg-menu{
+
+    .hamberg-menu {
         display: block;
     }
-    .nav-bar{
+
+    .nav-bar {
         margin: 52px 20px;
     }
+
     /* banner-style */
-    .banner-container{
+    .banner-container {
         display: flex;
         flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
     }
-    .banner-sub-conttainer{
+
+    .banner-sub-conttainer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .des-1{
-      
+
+    .des-1 {
+
         width: 8rem;
         height: 4rem;
         position: absolute;
         top: 10%;
         left: 55%;
     }
-    .banner-title-1{
+
+    .banner-title-1 {
         font-size: 20px;
         font-weight: 900;
-        color: white;  
-   }
-   .banner-sub-title-1{
-    font-size: 10px;
-    color: rgba(255, 255, 255, 0.65);
-   }
-   .des-2{
-  
-   position: absolute;
-   width: 8rem;
-   height:4rem ;
-   top: 45%;
-   left: 5%;
-   }
-   .banner-title-2{
-    font-size: 15px;
-    font-weight: 900;
-    color: white;  
-}
-.banner-sub-title-2{
-font-size: 10px;
-color: rgba(255, 255, 255, 0.65);
-}
-.b-title{
-    color: white;
-    font-size: 50px;
-    font-weight: 900;
-    
-}
-.btn-1{
-    display: none;
-}
-.btn-responsive{
-    display: block;
-}
-/* habit-section */
-.habit-content{
-    display: grid;
-    grid-template-columns: 70%;
-    justify-content: center;
-    align-items: center;
+        color: white;
+    }
 
-}
-.habit-title{
-    font-size: 30px;
-}
-/* run-style-here */
+    .banner-sub-title-1 {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.65);
+    }
 
-.run-img{
-    display: none;
-}
-.run-img-responsive{
-    width: 100%;
-    display: block;
-    border-radius: 18px;
-}
+    .des-2 {
 
-.run-extra{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-   
-}
-.btn-responsive-1{
+        position: absolute;
+        width: 8rem;
+        height: 4rem;
+        top: 45%;
+        left: 5%;
+    }
+
+    .banner-title-2 {
+        font-size: 15px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .banner-sub-title-2 {
+        font-size: 10px;
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+    .b-title {
+        color: white;
+        font-size: 50px;
+        font-weight: 900;
+
+    }
+
+    .btn-1 {
+        display: none;
+    }
+
+    .btn-responsive {
+        display: block;
+    }
+
+    /* habit-section */
+    .habit-content {
+        display: grid;
+        grid-template-columns: 70%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .habit-title {
+        font-size: 30px;
+    }
+
+    /* run-style-here */
+
+    .run-img {
+        display: none;
+    }
+
+    .run-img-responsive {
+        width: 100%;
+        display: block;
+        border-radius: 18px;
+    }
+
+    .run-extra {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+
+    }
+
+    .btn-responsive-1 {
 
 
         width: 287px;
@@ -106,82 +124,102 @@ color: rgba(255, 255, 255, 0.65);
         border-radius: 42px;
         background: rgb(230, 83, 60);
         border-style: none;
-    
-}
-.run-extra-description{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    
-}
-.run-extra-img{
-    padding: 33px;
-}
-/* bmi-section here */
-.b-description{
-    width: 90%;
-}
-.bmi-content{
-    display: flex;
-    
-}
-.content-1{
-    padding: 5%;
-}
-.content-2{
-    padding: 5%;
-}
-/* meet our team style */
-.meet-our-team-container{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    background-color: rgba(255, 255, 255, 0.1);
-   justify-items: center;
-   border-radius: 18px;
-   padding: 20px;
-   gap: 20px;
-   width: 90%;
-}
-meet-content{
-   align-items: center;
-}
 
-.meet-img{
-    width: 100%;
-    height: 100%;
-}
-.none-img{
-    display: none;
-}
-.challenge-content{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    
-}
-.challenge button{
-    width: 90%;
-    margin-left: 0px;
-    margin-top: 10px;
-}
-.challenge-form{
-    width: 90%;
-}
-.challenge-1{
-    text-align: start;
-}
-.responsive-1{
-    margin-left: 0px;
-}
-.paddin-challange{
-    margin-left: -20px;
-}
-.last-container{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
+    }
+
+    .run-extra-description {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .run-extra-img {
+        padding: 33px;
+    }
+
+    /* bmi-section here */
+    .b-description {
+        width: 90%;
+    }
+
+    .bmi-content {
+        display: flex;
+
+    }
+
+    .content-1 {
+        padding: 5%;
+    }
+
+    .content-2 {
+        padding: 5%;
+    }
+
+    /* meet our team style */
+    .meet-our-team-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: rgba(255, 255, 255, 0.1);
+        justify-items: center;
+        border-radius: 18px;
+        padding: 20px;
+        gap: 20px;
+        width: 90%;
+    }
+
+    meet-content {
+        align-items: center;
+    }
+
+    .meet-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .none-img {
+        display: none;
+    }
+
+    .challenge-content {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+
+    }
+
+    .challenge button {
+        width: 90%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .challenge-form {
+        width: 90%;
+    }
+
+    .challenge-1 {
+        text-align: start;
+    }
+
+    .responsive-1 {
+        margin-left: 0px;
+    }
+
+    .paddin-challange {
+        margin-left: -20px;
+    }
+
+    .last-container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .last-content {
+        width: 90%;
+    }
 
 }
