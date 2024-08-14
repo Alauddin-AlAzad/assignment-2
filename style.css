@@ -430,7 +430,7 @@ color: darkgray;
 .challenge{
     width: 100%;
     margin: 0 auto;
-   
+   margin-top: 80px;
     background: rgb(34, 34, 34);
     margin-bottom: 80px;
 
